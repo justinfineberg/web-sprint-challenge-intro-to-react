@@ -12,8 +12,8 @@ const [characters, getCharacters] = useState([]);
 useEffect(()=>{
   axios.get('https://swapi.dev/api/people')
   .then(res=>{
-    console.log(res)
     getCharacters(res.data)
+    console.log("App -> res.data", res.data)
   })
   .catch(err=>{
     console.log(err)

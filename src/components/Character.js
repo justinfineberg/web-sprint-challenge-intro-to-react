@@ -33,7 +33,6 @@ const Character =(props)=>{
         background-color: #EF233C;
     }
     `
-    
     const MainButton = styled.button`
     border-radius: 10px;
     background: black;

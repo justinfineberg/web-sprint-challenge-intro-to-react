@@ -81,6 +81,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React is JS framework that was created by the Facebook team. The problems it solves is making it easier to build UI that is based in components and reususable. You can build complex UI for apps with many changes taking place. For instance, they introduced useState(state managment) making it easier to manage the different states of elements on the page. It also introduced the virtual DOM to interact with the actual DOM. 
+
 1. Describe component state.
+
+A component is a building block of React, and the component state has information about that component. It's an object that holds information and causes the component to re-render when states change.  
+
 1. Describe props.
+
+This is the standard name for the arguments of React components. It is the properties/data that is passed into the components themselves. 
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side effects are anything affecting the app outside the scope of the function being called. Using the Effect Hook is how we mitigate this. It's how we can have side effects be synced with certain components. 
